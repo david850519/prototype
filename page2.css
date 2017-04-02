@@ -1,0 +1,273 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width:1000px;
+	margin:0 auto;
+	font-family: Microsoft JhengHei;
+}
+
+.header{
+	height:100px;
+	/*background: red;*/
+}
+
+.logo{
+	height: 60px;
+	padding:10px;
+	float:left;
+}
+
+.header_center{
+	width:600px;
+	margin-left: 200px;
+}
+
+.header li{
+	float:left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.header li a{
+	font-size:20px;
+	/*background: blue;*/
+	padding:15px;
+	text-decoration: none;
+	color:black;
+	display: block;
+	border-right: 1px solid black;
+}
+
+.header a:hover{
+	background: #DDDDDD;
+	color: #fff;
+}
+
+.content1{
+	margin-top:30px;
+	margin-bottom: 20px;
+	border-top:1px solid #AAAAAA;
+	height:280px;
+	border-bottom:1px solid #AAAAAA;
+}
+
+.back{
+	float: left;
+	width: 100px;
+	/*height: 400px;*/
+	margin-top:30px;
+}
+
+.back img{
+	padding:5px;
+	height: 70px;
+}
+
+.back img:hover{
+	background: #DDDDDD;
+}
+
+.item{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 100px;
+	width: 300px;
+	float: left;
+}
+
+.item_title p{
+	font-style: bold;
+	padding-bottom: 20px;
+	font-size: 26px; 
+	border-bottom: 1px solid gray;
+}
+
+.item_description{
+	margin-top:10px;
+}
+
+.item_description p{
+	 font-size: 22px;
+	 padding: 5px;
+}
+
+.item_description span{
+	color:red;
+}
+
+.item_description li{
+	padding-top: 5px;
+	line-height: 20px;
+	padding-left:10px;
+	color:gray;
+}
+
+.tag{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.tag span{
+	font-size: 14px;
+	border: 1px solid black;
+	padding:2px;
+	margin-right: 3px;
+}
+
+.tag a{
+	text-decoration: none;
+	color:black;
+}
+
+.tag span a:hover{
+	color:red;
+}
+
+.item_img{
+	float:left;
+	width:300px;
+	margin:30px;
+}
+
+.item_img img{
+	width:350px;
+}
+
+
+.content2{
+	height: 250px;
+	border-bottom: 1px solid #AAAAAA;
+	padding-bottom: 20px;
+}
+
+.content2 .title{
+		margin-bottom: 10px;
+}
+
+.content2 .title p{
+	text-align: center;
+	font-size:20px;
+	font-style: bold;
+	color:	#FF7744;
+}
+
+.content2 .block1{
+	margin-left:10px;
+	float: left;
+	width: 500px;
+	border-right: 1px solid #AAAAAA;
+}
+.content2 .block_item{
+	float: left;
+}
+
+.content2 .block_item_img{
+	height: 160px;
+	width: 240px;
+}
+
+.content2 .block_item .img1{
+	position: absolute;
+}
+
+
+
+.content2 .block_item .img2{
+	position: relative;
+	width: 60px;
+	
+}
+
+.block_item_description{
+	line-height: 30px;
+}
+.block_item_description .title{
+	padding:10px;
+}
+
+.block_item_description .price{
+	margin-left: 10px;
+	color: red;
+}
+
+.star img{
+	width: 12px;
+}
+
+
+.block_evalution{
+	float: left;
+	width: 200px;
+	padding: 5px;
+}
+
+.block_evalution p{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.block_evalution span{
+	padding: 10px;
+}
+.block_evalution img{
+	width: 12px;
+}
+
+.block2{
+	float:left;
+	margin-left: 20px;	
+}
+
+.footer{
+	padding: 10px;
+
+}
+
+.footer p{
+	text-align:center;
+	font-size: 12px;
+	font-family: Garamond;
+}
